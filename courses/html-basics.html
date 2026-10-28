@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics - DV Academy</title>
+    <link rel="stylesheet" href="../assets/tokens.css">
+    <link rel="stylesheet" href="../assets/style.css">
+
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1>DV Academy</h1>
+
+    <nav>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+        <label for="menu-toggle" class="menu-button">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="sr-only">Toggle navigation</span>
+        </label>
+
+       <ul>
+           <li><a href="../index.html">Home</a></li>
+           <li><a href="../courses.html">Courses</a></li>
+           <li><a href="html-basics.html" aria-current="page" class="current-page">HTML Basics</a></li>
+           <li><a href="../register.html">Register</a></li>
+           <li><a href="../about.html">About Us</a></li>
+           <li><a href="../contact.html">Contact Us</a></li>
+       </ul>
+   </nav>
+</header>
+
+
+<!-- Main Content -->
+<main>
+    <div class="course-layout">
+
+        <div class="course-content">
+            <div class="course-intro">
+                <h2>HTML Basics Course Detail</h2>
+                <p>Master the foundational language of the web, structure, semantics, and accessibility.</p>
+            </div>
+
+            <div>
+                <h2>Course Syllabus</h2>
+                <ol>
+                    <li>Introduction to HTML &amp; Document Skeleton</li>
+                    <li>Headings, Paragraphs, and Text Formatting</li>
+                    <li>Links, Images, and Paths</li>
+                    <li>Lists and Data Tables</li>
+                    <li>Forms and Input Controls</li>
+                    <li>Accessibility Basics &amp; ARIA</li>
+                </ol>
+            </div>
+
+            <div>
+                <h2>Video Preview</h2>
+                <video controls width="400" muted>
+                    <source src="../assets/video/preview.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div>
+                <h2>Code Sample</h2>
+                <p>Here is how you write a basic HTML5 skeleton:</p>
+                <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                </code></pre>
+            </div>
+        </div>
+
+        <aside class="course-sidebar">
+            <div>
+                <h2>Prerequisites</h2>
+                <ul>
+                    <li>Basic computer literacy</li>
+                    <li>A text editor (like VS Code)</li>
+                    <li>A modern web browser</li>
+                </ul>
+            </div>
+        </aside>
+
+    </div>
+</main>
+    
+
+    <!-- Footer -->
+<footer class="site-footer">
+    <div class="footer-column">
+        <h3>DV Academy</h3>
+        <p>Learn today, build your future.</p>
+    </div>
+
+    <div class="footer-column">
+        <h3>Quick Links</h3>
+        <p><a href="../index.html">Home</a></p>
+        <p><a href="../courses.html">Courses</a></p>
+        <p><a href="../about.html">About Us</a></p>
+    </div>
+
+    <div class="footer-column">
+        <h3>Contact Us</h3>
+        <p><a href="mailto:info@dvacademy.com" class="mail">info@dvacademy.com</a></p>
+        <p>&copy; 2026 DV Academy. All rights reserved.</p>
+    </div>
+</footer>
+
+
+</body>
+</html>

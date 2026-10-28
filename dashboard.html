@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - DV Academy</title>
+
+    <link rel="stylesheet" href="assets/tokens.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>DV Academy</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Visit Website</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="register.html">Registration</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="dashboard-section">
+            <h2>Dashboard Overview</h2>
+            <p>Welcome to the administration panel.</p>
+        </div>
+
+        <div class="dashboard-section dashboard-stats">
+            <h2>Quick Statistics</h2>
+
+            <article class="stat-card">
+                <h3>Total Students</h3>
+                <p>120</p>
+            </article>
+
+            <article class="stat-card">
+                <h3>Available Courses</h3>
+                <p>8</p>
+            </article>
+
+            <article class="stat-card">
+                <h3>Pending Registrations</h3>
+                <p>12</p>
+            </article>
+        </div>
+
+        <div class="dashboard-section dashboard-table-wrapper">
+            <h2>Recent Registrations</h2>
+
+            <table>
+                <caption>Latest Student Registrations</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Student</th>
+                        <th scope="col">Course</th>
+                        <th scope="col">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ahmed Mohamed</td>
+                        <td>HTML Basics</td>
+                        <td>
+                            <span class="badge badge-approved">Approved</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sara Ali</td>
+                        <td>CSS Essentials</td>
+                        <td>
+                            <span class="badge badge-pending">Pending</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Omar Hassan</td>
+                        <td>JavaScript Essentials</td>
+                        <td>
+                            <span class="badge badge-approved">Approved</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-column">
+            <h3>DV Academy</h3>
+            <p>Learn today, build your future.</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <p><a href="index.html">Home</a></p>
+            <p><a href="courses.html">Courses</a></p>
+            <p><a href="about.html">About Us</a></p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p><a href="mailto:info@dvacademy.com" class="mail">info@dvacademy.com</a></p>
+            <p>&copy; 2026 DV Academy. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap h-5 w-5"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"></path><path d="M22 10v6"></path><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path></svg>
